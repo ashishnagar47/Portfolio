@@ -1,6 +1,5 @@
 import React from 'react'
 import {makeStyles} from "@material-ui/core"
-import {withStyles} from "@material-ui/styles"
 import {BottomNavigation,BottomNavigationAction} from "@material-ui/core"
 import Facebook from "@material-ui/icons/Facebook"
 import Instagram from "@material-ui/icons/Instagram"
