@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import {AppBar,Toolbar,ListItem,ListItemIcon,IconButton,ListItemText,Avatar,Divider,List,Typography,Box} from "@material-ui/core"
-import {ArrowBack,AssignmentInd,Home,Apps,ContactMail} from "@material-ui/icons"
+import {Menu,AssignmentInd,Home,Apps,ContactMail} from "@material-ui/icons"
 import { makeStyles} from "@material-ui/styles"
 import MobileRightMenuSlider from "@material-ui/core/Drawer"
 import {Link} from "react-router-dom"
@@ -82,7 +82,7 @@ const menuItems=[
                     <AppBar position="static" style={{background:"#222"}}>
                         <Toolbar>
                             <IconButton onClick={toggleSlider("right",true)}>
-                            <ArrowBack style={{color:"tomato"}}></ArrowBack>
+                            <Menu style={{color:"tomato"}}></Menu>
                             </IconButton>
                             <Typography variant="h5" style={{color:"tan"}}>
                                         Portfolio
