@@ -7,8 +7,7 @@ import Navbar from './Navbar'
 //CSS STYLES
 const useStyle=makeStyles(theme=>({
     mainContainer:{
-        background:"#233",
-        
+        background:"#233",    
     },
     timeLine:{
         position:"relative",
@@ -39,7 +38,7 @@ const useStyle=makeStyles(theme=>({
         padding:"1rem",
         borderBottom:"2px solid tan",
         position:"relative  ",
-        margin:"1rem 3rem 1rem 1rem",
+        margin:"1rem 4rem 1rem 1rem",
         clear:"both",
         "&:after":{
             content:"''",
@@ -48,7 +47,7 @@ const useStyle=makeStyles(theme=>({
         "&:before":{
             content:"''",
             position:"absolute",
-            right:"-0.625rem",
+            right:"-0.225rem",
             top:"calc(50% - 5px)",
             borderStyle:"solid",
             borderColor:"tomato tomato transparent transparent",
@@ -132,11 +131,26 @@ export default function Resume() {
                             I have done 2 weeks training on Internet of Things from Sofcon India Pvt. Ltd. where I learned 
                             about microcontrollers, arduino, raspberry, embedded system etc
                         </Typography>
-                        
                     </Box>
+
                     <Typography varient="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
                             2019
                     </Typography>
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography varient="h5" align="center" className={classes.subHeading}>
+                            Pyhton Fundamentals
+                        </Typography>
+                        <Typography varient="body1" align="center" style={{color:"tomato"}}>
+                                Coding Ninjas
+                        </Typography>
+                        <Typography varient="subtitle1" align="center" style={{color:"tan"}}>
+                        I had learned Python fundamentals from Coding Ninjas, where I learned concepts of programming like loops, 
+                        arrays, string, recursion and maps in it.
+
+                        </Typography>
+                     </Box>
+
+                    
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography varient="h5" align="center" className={classes.subHeading}>
                                 Mobile Technology
@@ -148,21 +162,38 @@ export default function Resume() {
                                 I have done 6 weeks training on Mobile Technology from M.T.N.L where I learned about 
                                 wireless communication, and wired communication, and how communication system works.
                         </Typography>
-
                     </Box>
+
+                    
+
                     <Typography varient="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
                             2020
                     </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography varient="h5" align="center" className={classes.subHeading}>
-                                Industrial Training
+                                Core Java
                         </Typography>
                         <Typography varient="body1" align="center" style={{color:"tomato"}}>
                                 Coding Blocks
                         </Typography>
                         <Typography varient="subtitle1" align="center" style={{color:"tan"}}>
-                                I have done 6 months Industrial Training from Coding Blocks where I learned JAVA(DS & Algo) and
-                                Full Stack Web-Development and made various projects in it.
+                        I had learned Core Java from Coding Blocks, where I learned Data Structures, and Algorithms in Java. 
+                        I have learned data structures like arrays, recursion, linked list, stacks, queues, trees, and graphs in it.
+                        </Typography>
+                        
+                    </Box>
+
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography varient="h5" align="center" className={classes.subHeading}>
+                                Full Stack Web Development
+                        </Typography>
+                        <Typography varient="body1" align="center" style={{color:"tomato"}}>
+                                Coding Blocks
+                        </Typography>
+                        <Typography varient="subtitle1" align="center" style={{color:"tan"}}>
+                        I had learned Full Stack Web Development from Coding Blocks, where I learned HTML,CSS, JS, for frontend and NodeJs,
+                        ExpressJs, MySql, MongoDb for backend. And I had made various projects in it like social media site and ecommerce site.
+
                         </Typography>
                         
                     </Box>
